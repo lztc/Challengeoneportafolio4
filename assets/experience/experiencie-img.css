@@ -1,0 +1,19 @@
+.experience__img{
+    border-radius: .625rem;
+    
+}
+
+@media screen and (min-width: 0px){
+    .experience__img{
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .experience__img{
+        margin: 0 1rem 0 0;
+        width: 52.22vw;
+        
+    }
+}

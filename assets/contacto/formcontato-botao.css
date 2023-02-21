@@ -1,0 +1,36 @@
+.formcontato__botao{
+    background: #15273E;
+    border-color: #15273E;
+    border-radius: .625rem;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0px){
+    .formcontato__botao{
+        font-size: .875rem;
+        font-weight: 600;
+        line-height: 1rem;
+        margin: 0;
+        padding: .75rem 1rem;
+        width: 8.5rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formcontato__botao{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.1875rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        transition: 1s all;
+        width: 9.25rem;
+    }
+    
+    .formcontato__botao:hover{
+        background: #4F3D1A;
+        border-color: #4F3D1A;
+        transform: scale(1.2);
+    }
+}

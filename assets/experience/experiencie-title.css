@@ -1,0 +1,19 @@
+.experience__title{
+    color: black;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 0px){
+    .experience__title{
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .experience__title{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}

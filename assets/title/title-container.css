@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px){
+    .title__container{
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .title__container{
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .title__container{
+        order: 1;
+    }
+}

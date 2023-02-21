@@ -1,0 +1,42 @@
+.formcontato__input, 
+.formcontato__input:focus{
+    background: #FAFBFD;
+    border: none;
+    height: 3.5rem;
+    line-height: 1.25rem;
+    padding: .75rem .75rem 0 .75rem;  
+}
+
+.formcontato__input{
+    border-bottom: 2px solid #ACA4A4;
+    border-radius: .625rem;
+    font-weight: 400;
+    outline: none;
+    z-index: 0;
+    margin-bottom: 1rem;
+}
+
+.formcontato__input:focus{
+    border-bottom: 2px solid #4F3D1A;
+    color: #282525;
+}
+
+.formcontato__input:focus + .contacto__texto--nombre,
+.formcontato__input:not(:placeholder-shown) + .contacto__texto--nombre{
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    top: 0.5rem; 
+}
+
+.formcontato__input:focus + .contacto__texto--nombre{
+    color: #4F3D1A;
+}
+
+.contacto__nombre::placeholder{
+    color: transparent;
+}
+
+.contacto__nombre:focus::placeholder{
+    color: #555252;
+}

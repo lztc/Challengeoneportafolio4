@@ -1,0 +1,38 @@
+.title__profile{
+
+    border-radius: 100%;
+
+}
+
+@media screen and (min-width: 0px){
+    .title__profile{
+        display: block;
+        height: 98px;
+        margin: 0 0 1rem 0;
+        order: 2;
+        width: 98px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .title__profile{
+        display: flex;
+        height: 146px;
+        margin: 0 0 0 2rem;
+        order: 1;
+        width: 146px;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .title__profile{
+        display: flex;
+        height: 368px;
+        margin: 0 0 0 1.0625rem;
+        order: 1;
+        width: 368px;
+       
+    }
+}
+
+

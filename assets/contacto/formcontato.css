@@ -1,0 +1,16 @@
+.formcontato{
+    background: #EAF2FD;
+
+}
+
+@media screen and (min-width: 0px){
+    .formcontato{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formcontato{
+        padding: 4rem 0;
+    }
+}

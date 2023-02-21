@@ -1,0 +1,26 @@
+
+.formcontato__text{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__text{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0px){
+    .formcontato__text{
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formcontato__text{
+        margin-left: 1rem;
+        width: 45.56vw;
+    }
+}

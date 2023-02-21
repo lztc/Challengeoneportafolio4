@@ -1,0 +1,28 @@
+.menu__list{
+    display: flex;
+    padding-right: 1rem;
+    
+}
+
+
+@media screen and (min-width: 0){
+    .menu__list{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 480px){
+    .menu__list{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .menu__list{
+        flex-wrap: nowrap;
+    }
+}

@@ -1,0 +1,31 @@
+.hobbies{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    background: #F5F5F5;
+ }
+ 
+ @media screen and (min-width: 0px){
+     .hobbies{
+         
+         padding: 1rem;
+         text-align: center;
+ 
+     }
+ }
+ 
+ @media screen and (min-width: 768px){
+     .hobbies{
+         padding: 2rem;
+         text-align: center;
+     }
+ }
+ 
+ @media screen and (min-width: 922px){
+     .hobbies{
+         padding: 2rem 0 2rem 0;
+         text-align: center;
+     }
+ }
+ 

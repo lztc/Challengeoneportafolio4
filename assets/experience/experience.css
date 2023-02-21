@@ -1,0 +1,19 @@
+
+
+.experience{
+    background: white;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 0px){
+    .experience{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .experience{
+        padding: 2rem 0;
+    }
+}

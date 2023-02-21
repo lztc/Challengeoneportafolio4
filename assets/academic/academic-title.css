@@ -1,0 +1,27 @@
+.academic__title{
+    display: flex;
+    font-weight: bold;
+    text-align: center;  
+    justify-content: center;
+}
+
+@media screen and (min-width: 0px){
+    .academic__title{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .academic__title{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .academic__title{
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+}
